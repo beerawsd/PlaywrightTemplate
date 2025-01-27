@@ -1,0 +1,115 @@
+{
+  "cookies": [
+    {
+      "name": "CLID",
+      "value": "ab0855bf990646d78110fa41ff6c49f3.20250117.20260117",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1768636241.441496,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "1ux13f5%7C2%7Cfsn%7C0%7C1843",
+      "domain": ".dpluscrm.com",
+      "path": "/",
+      "expires": 1768636241,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "04C6862D75A365783960935A740864F6",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1770796243.893491,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1737705043.893628,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "04C6862D75A365783960935A740864F6",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1770796243.893665,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "04C6862D75A365783960935A740864F6",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1770796244.983589,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1737705044.983611,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1737100844.983621,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "accessToken",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzcyNzMwNDUsImlkIjoiVVc5M0VHUjUiLCJuYW1lIjoiQWRtaW5pc3RyYXRvciJ9.k8WcpTDXRL2EcFCpIWqsMz85a_n7YierfxYMhWG5bdeRuNd45_QDjAhrmrZQ1Om8fmtdBAREr-konKEMSc7sfnyeR1ACG12ZRXlD4qWGq1Vm8qAFrNumamHH8Q4hj-L2l0FgrY5uaJTN70HMaX3EXZkLfIUFFicO1tC5nix9C8bZE4nWUGqQyT41BBvPoYuJQ8bUXqq3DneYBZ60sbQAQLlizlGuHgECYCld8eOpdkCprB7jzo8b-tYS3FNNCZJP5YlcRz4fOw1DiWyT_g-Yw5JizcWrp-Xwt-rEbXZEXIvZg0xStKx40QExGAPrOq9a73rreHQIFz03crFzbC5EVg",
+      "domain": "warranty-uat.dpluscrm.com",
+      "path": "/",
+      "expires": 1738396241,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "1insw0z%7C1737100246331%7C2%7C1%7Co.clarity.ms%2Fcollect",
+      "domain": ".dpluscrm.com",
+      "path": "/",
+      "expires": 1737186646,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
