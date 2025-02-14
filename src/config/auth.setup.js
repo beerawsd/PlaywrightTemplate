@@ -18,15 +18,13 @@ setup('authenticate as admin', async ({ page }) => {
   await page.context().storageState({ path: adminFile });
 });
 
-
 // SETUP User authen
-
 // const userFile = 'src/config/playwright/.auth/user.json';
 // setup('authenticate as user', async ({ page }) => {
 //   // Perform authentication steps. Replace these actions with your own.
 //   await page.goto('/account/login');
-//   await page.locator('input[name="username"]').fill('admin');
-//   await page.locator('input[name="password"]').fill('12345678');
+//   await page.locator('input[name="username"]').fill(process.env.NAME);
+//   await page.locator('input[name="password"]').fill(process.env.PASSWORD);
 //   await page.locator('button[usefor="LOGIN"]').click();
 //   await page.waitForURL('/');
  
@@ -37,8 +35,6 @@ setup('authenticate as admin', async ({ page }) => {
 //   await page.context().storageState({ path: userFile });
 // });
 
-
-
 /*
 // SETUP API AUTH 
 const authFile = 'src/config/playwright/.auth/user.json';
@@ -46,8 +42,8 @@ setup('authenticate', async ({ request }) => {
   // Send authentication request. Replace with your own.
   await request.post('https://github.com/login', {
     form: {
-      'user': 'admin',
-      'password': '12345678'
+      'user': process.env.NAME,
+      'password': process.env.PASSWORD
     }
   });
   await request.storageState({ path: authFile });

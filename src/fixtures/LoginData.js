@@ -1,7 +1,7 @@
 const loginValidData = [
     { 
-        username: 'admin', 
-        password: '12345678' 
+        username: process.env.NAME, 
+        password: process.env.PASSWORD
     }
 ];
   
