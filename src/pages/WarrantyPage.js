@@ -16,7 +16,7 @@ class WarrantyPage {
   }
 
   async navigate() {
-    await this.page.goto('https://warranty-uat.dpluscrm.com:14989/warranty');
+    await this.page.goto('/...');
   }
 
   async waitLanding(){

@@ -1,8 +1,5 @@
 const { expect } = require('@playwright/test');
 
-
-
-
 class LoginPage {
   constructor(page) {
     this.page = page;
@@ -12,11 +9,8 @@ class LoginPage {
     
     this.loginErrorMessageUsername = page.locator('xpath=/html/body/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div[1]/div[2]/span') // 
     this.loginErrorMessagePassword = page.locator('xpath=/html/body/div[1]/div/div/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div[2]/span') // 
-
-
     
   }
-
   async navigate() {
     await this.page.goto('/');
   }
